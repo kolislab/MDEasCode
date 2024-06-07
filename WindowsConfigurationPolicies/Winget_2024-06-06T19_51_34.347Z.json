@@ -1,0 +1,35 @@
+﻿{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies/$entity",
+  "createdDateTime": "2024-04-25T12:58:50.7363811Z",
+  "creationSource": null,
+  "description": "",
+  "lastModifiedDateTime": "2024-04-25T12:58:50.7363811Z",
+  "name": "Winget",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds": ["0"],
+  "settingCount": 1,
+  "technologies": "mdm",
+  "id": "2d54abc9-4985-4aed-a0f5-84498983931b",
+  "templateReference": {
+    "templateId": "",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_desktopappinstaller_enablemicrosoftstoresource",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_desktopappinstaller_enablemicrosoftstoresource_0",
+          "children": []
+        }
+      }
+    }
+  ]
+}
