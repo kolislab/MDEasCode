@@ -1,0 +1,2 @@
+# MDEasCode
+Intune as Code
